@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Amiel Martin", "Nathan Carnes"]
   s.email       = ["amiel@carnesmedia.com", "nathan@carnesmedia.com"]
   s.homepage    = "https://github.com/carnesmedia/html_calendar"
-  s.summary     = "Generate nice little html calendars"
-  s.description = "TODO: A better description"
+  s.summary     = "A lightweight gem for creating HTML calendars in Rails."
+  s.description = "HtmlCalendar is an extremely lightweight/extensible gem for creating HTML calendars in Rails (>= 3.1)."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "CONTRIBUTING.md"]
 
