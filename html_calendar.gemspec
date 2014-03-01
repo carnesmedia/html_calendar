@@ -7,15 +7,15 @@ require "html_calendar/version"
 Gem::Specification.new do |s|
   s.name        = "html_calendar"
   s.version     = HtmlCalendar::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of HtmlCalendar."
-  s.description = "TODO: Description of HtmlCalendar."
+  s.authors     = ["Amiel Martin", "Nathan Carnes"]
+  s.email       = ["amiel@carnesmedia.com", "nathan@carnesmedia.com"]
+  s.homepage    = "https://github.com/carnesmedia/html_calendar"
+  s.summary     = "Generate nice little html calendars"
+  s.description = "TODO: A better description"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 4.0.2"
+  s.add_dependency "rails", ">= 3.1"
 
   s.add_development_dependency "sqlite3"
 end

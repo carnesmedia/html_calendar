@@ -1,0 +1,14 @@
+<table class="calendar">
+  <thead>
+    <%= calendar.render_header %>
+  </thead>
+  <tbody>
+    <% calendar.renderable_date_range_in_weeks.each do |week_days| %>
+      <tr>
+        <% week_days.each do |date| %>
+          <%= calendar.render_date date %>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
