@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Generate nice little html calendars"
   s.description = "TODO: A better description"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "CONTRIBUTING.md"]
 
   s.add_dependency "rails", ">= 3.1"
 
