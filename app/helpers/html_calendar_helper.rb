@@ -1,5 +1,5 @@
 module HTMLCalendarHelper
-  def html_calendar(month, options = {})
+  def html_calendar(month = Date.current, options = {})
     HTMLCalendar::Calendar.new self, month, options
   end
 end
